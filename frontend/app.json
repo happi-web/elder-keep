@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "ElderlyKeep",
+    "slug": "ElderlyKeep",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./logo-elderkeep.png",
+    "scheme": "elderlykeep",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./logo-elderkeep.png",
+        "backgroundImage": "./logo-elderkeep.png",
+        "monochromeImage": "./logo-elderkeep.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./logo-elderkeep.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./logo-elderkeep.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
